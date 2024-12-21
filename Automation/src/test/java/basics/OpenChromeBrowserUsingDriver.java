@@ -11,8 +11,8 @@ public class OpenChromeBrowserUsingDriver
         WebDriver driver = new ChromeDriver();
         String url = "https://www.facebook.com/?locale=ar_AR";
         driver.get(url);
-        String UserName="01116576569";
-        String Password="F@wzynagy28#";
+        String UserName="-";
+        String Password="-";
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input")).clear();
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input")).sendKeys(UserName);
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input")).clear();
